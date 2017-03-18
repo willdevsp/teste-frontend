@@ -1,0 +1,172 @@
+
+$espaco: 5%;
+
+.todo{
+    margin-bottom: $espaco;
+    margin-left: $espaco;
+    margin-right: $espaco;
+    background: white;
+    border-radius: 3px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #8f9fb2;
+}
+table {
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid #666;
+  margin-left: $espaco;
+}
+thead {
+  background: #ccc ;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+.trConfig:hover {
+  background-color: transparent;
+  color: inherit;
+}  
+}
+.trConfig:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th, td {
+  padding: 0.1em 1em;
+  text-align: center;
+}
+
+.btn{
+    margin-left: $espaco;
+    background: transparent;
+    border: none;
+}
+.topo{
+    float:top; 
+    display: inline;
+}
+#divBusca{
+     background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:550px;
+  height:32px;
+  float: left;
+  margin-left: $espaco;
+}
+#divAdd{
+    float: left;
+    
+        
+}
+
+.btnAdd{
+    margin-left: 10px;
+    height: 32px;
+    background-color: #112a48;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    
+}
+#btnBusca{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-left: 12px;
+}
+.btnSave{
+    @extend .btnAdd;
+    padding: 10px;
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+hr{
+    width: 90%;
+    border: 1px solid #ccc;
+    
+}
+
+
+
+.divFooter{
+ 
+
+    display: inline;
+    
+    
+}
+.divAcoes{
+    margin-left: $espaco;
+    width: 20%;
+    float: left;
+    
+}
+.divInfo{
+    
+    margin-left: 45%;
+    
+}
+.divPage{
+    float: right;
+    
+    margin-right: 10%;
+}
+
+
+.campos{
+    border: none;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+    
+}
+
+.formulario{
+    margin-left: 30%;
+}
+.prod{
+    
+    width: 300px;
+    height: 433px;
+        
+        
+}
+
+small{
+    color: #ccc;
+    text-align: left;
+}
+p{
+    text-align: center;
+}
+.reduz{
+    width: 70%;
+    border:none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+    padding: 13px;
+         
+    margin-bottom: -3px;
+}

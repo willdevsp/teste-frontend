@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html><head>
+        <title>Lista de produto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="
+              https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+
+        <div class="todo">
+            <h1>Lista de Produtos</h1>
+            <form action="POST">
+                <div class="topo">
+                    <div id="divBusca">
+
+                        <img src="img/lupa.png" id="btnBusca" alt="buscar">
+                        <input type="search" id="txtBusca" placeholder="buscar" style="width:500px">
+
+                    </div>
+                    
+                    <div id="divAdd"><a href="cad.html" class="btnAdd button">Adicionar Produto</a></div>
+                <br><br>
+                <hr>
+                <table style="width: 90%">
+
+
+
+                    <thead>
+                        <tr class="trConfig">
+                            <th></th>
+                            <th>Produto</th>
+                            <th>Categoria</th>
+                            <th>Preço</th>
+                            <th>Validade</th>
+                            <th>Ações</th>
+                        </tr></thead>
+
+                    <tbody>
+                        <tr class="trConfig">
+                            <td><input type="checkbox"></td>
+                            <td>Copo Plástico</td>
+                            <td>Cozinha</td>
+                            <td>R$0,30</td>
+                            <td>09/08/2018</td>
+                            <td>
+                                <a href="edit.html" class="fa fa-edit btn" ></a>
+                                <a  href="view.html" class="fa fa-eye btn"></a>
+                                <a href="#" class="fa fa-trash btn"></a>
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+
+
+
+                </table>
+              
+        
+            </form>
+            
+                <hr>
+
+
+                <div class="divFooter">
+                    
+                    <div class="divAcoes"><i class="fa fa-caret-up"></i>Ações em massa</div>
+                    <div class="divInfo">Mostrando 2 de 2 registros <div class="divPage">1,2,3,4</div></div>
+                    
+
+                    
+                    
+                </div>
+        </div>
+        
+        
+     
+
+
+    </body></html>
