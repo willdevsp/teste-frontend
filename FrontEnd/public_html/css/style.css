@@ -72,7 +72,7 @@ th, td {
 
 .btnSave {
   padding: 10px;
-  width: 320px;
+  width: 300px;
   margin-bottom: 20px; }
 
 #txtBusca {
@@ -134,5 +134,17 @@ a {
 .button {
   padding: 13px;
   margin-bottom: -3px; }
+
+#box_icone {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  position: relative;
+  left: -39px;
+  top: 1px; }
+
+#icone {
+  color: #000;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
